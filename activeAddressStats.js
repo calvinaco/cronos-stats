@@ -1,12 +1,7 @@
 const axios = require("axios");
 const BigNumber = require("bignumber.js");
-const util = require("@ethereumjs/util");
-const Common = require("@ethereumjs/common").Common;
-const EthereumTransaction = require("@ethereumjs/tx").Transaction;
-const FeeMarketEIP1559Transaction =
-  require("@ethereumjs/tx").FeeMarketEIP1559Transaction;
 
-const JSON_RPC_URL = "http://10.202.130.222:8545";
+const JSON_RPC_URL = "https://evm.cronos.org";
 const START_HEIGHT = "7365650";
 const END_HEIGHT = "7380923";
 
